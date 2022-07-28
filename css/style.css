@@ -75,6 +75,10 @@ body{
         font-size: 1rem;
     }
 
+    .section-padding{
+        padding-top: 3rem;
+    }
+
 }
 
 

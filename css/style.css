@@ -10,7 +10,7 @@ body{
 }
 
 .section-padding{
-    padding: 7rem 0;
+    padding-top: 7rem;
 }
 
 
@@ -51,7 +51,7 @@ body{
         width: 75% !important;
     }
 
-    .courses .col-12{
+    .courses .courses-items .col-12{
         width: 20.938rem !important;
         height: 25rem !important;
         margin: 0 auto;

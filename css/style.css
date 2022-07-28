@@ -1,0 +1,74 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ==== Reusable Components ==== */
+
+.text-color{
+    color: #777777;
+}
+
+.section-padding{
+    padding: 7rem 0;
+}
+
+
+/* ==== Slider ==== */
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+
+.carousel-item{
+    height: 80vh;
+    min-height: 18.75rem;
+}
+
+.carousel-caption{
+    bottom: 13rem;
+    z-index: 2;
+}
+
+.w-100{
+    height: 80vh;
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+    .carousel-caption{
+        bottom: 7rem;
+        width: 75% !important;
+    }
+
+    .courses .col-12{
+        width: 20.938rem !important;
+        height: 25rem !important;
+        margin: 0 auto;
+    }
+    .courses .col-12 img{
+        width: 100% !important;
+        height: 14rem !important;
+    }
+    .courses .col-12 h5{
+        font-size: 1rem;
+    }
+
+    .courses .col-12 p{
+        font-size: 0.875rem;
+    }
+
+}
+
+
+

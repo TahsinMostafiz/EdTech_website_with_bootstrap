@@ -13,6 +13,17 @@ body{
     padding-top: 7rem;
 }
 
+.feedback-btn p i::before{
+    background: #289BDE;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 0.625rem;
+    padding-left: 1rem;
+    cursor: pointer;
+}
 
 /* ==== Slider ==== */
 
